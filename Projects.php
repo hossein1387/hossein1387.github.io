@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE
+<!-- saved from url=(0055)http://www-etud.iro.umontreal.ca/~askarihr/projects.php -->
+<head><meta http-equiv="Content-Type" content="text.php; charset=UTF-8">
+    <meta charset="utf-8">  
+    <title>Projects</title>  
+    <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/png"> -->
+    <link rel="stylesheet" href="./Files/bootstrap.min.css">
+    <script src="./Files/jquery.min.js"></script><style type="text/css"></style>
+    <script src="./Files/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Files/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+     <link href="./Files/css" rel="stylesheet" type="text/css">  
+</head>
+<body>
+<div class="navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="./Projects.php">
+             <strong>MohammadHossein AskariHemmat</strong>   
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="./index.php">About</a></li>
+                <li><a href="./Projects.php">My Projects</a></li>
+                <li><a href="./Files/MOHAMMADHOSSEIN_ASKARIHEMMAT.pdf">C.V.</a></li>
+                <li><a href="./Teaching.php">Teaching</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div  id="accordion">
+          <div>            
+              <section id="content" class="body">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h1 class="entry-title"><i class="fa fa-chevron-right"></i>Model to code generation of UML/SysML activity diagrams for ARM CortexM MCUs (Master Thesis):</h1>
+                    <span class="badge">2013-2015</span>
+                    <span class="badge">Hardware Verification Group</span>
+                    <span class="badge">ARM Cortex-M</span>
+                    <span class="badge">SysML</span>
+                    <span class="badge">Formal Verification</span>
+                    <span class="badge">Model Checking</span>
+                    </a>
+                    <br>
+                    <br>
+                    <div id="collapse1" class="panel-collapse collapse">
+                    <div class="entry-content">
+                    <p id="first">
+                      Previously in our group, we formalized SysML activity diagrams by developing a calculus
+                      called New Activity Calculus (NuAC). In this work, we redefined NuAC terms to support
+                      RTX (Keil Real-Time Operating System) and present an automated SysML/UML activity
+                      diagram to RTX code generator, using mapping rules expressed in NuAC.
+                      To achieve this goal, we proposed a set of rules that were used for mapping a SysML/
+                      UML activity diagram into a suitable code to be executed on ARM CortexM processor
+                      family. To automate the process of code generation, we developed a JAVA application that
+                      uses the proposed rules to automatically generate the RTX code from the input activity diagram
+                      model.            
+                    </p>
+                        <div align="center">
+                        <table>
+                            <tr>
+                                <td><a ><img src="./Projects_files/MethodologyOverView.png" alt="" height="470" width="700"  ></a></td>
+                            </tr>
+                        </table>
+                       </div>                         
+                    </div>
+                    </div>
+              </section>
+
+              
+              <section id="content" class="body">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h1 class="entry-title"><i class="fa fa-chevron-right"></i>Video capturing IP implemented on ZYBO Zynq™-7000 Development Board:</h1>
+                  <span class="badge">Summer 2015</span>
+                  <span class="badge">Verilog</span>
+                  <span class="badge">Linux</span>
+                  <span class="badge">ZYNQ</span>                
+                  <span class="badge">FPGA</span>
+                  </a>
+                  <br>
+                  <br>
+                  <div id="collapse2" class="panel-collapse collapse">
+                  <div class="entry-content">
+                  <p id="first">
+                    In this project a ZYNQ evaluation board <a href="http://www.xilinx.com/support/university/boards-portfolio/xup-boards/XUPZYBO.php"> ZYBO</a>  with an OV7670 CMOS VGA(640 * 480) Camera chip with omnipixel Technology was used. Using the AXI-Stream, the captured video
+                    was streamed out to a VGA display IP. A linux driver was then added to the IP so that the captured data can be accessed on the application level.  
+                  </p>
+                  <div align="center">
+                    <table>
+                        <tr>
+                            <td><a ><img src="./Projects_files/output90.jpg" alt="" height="310" width="320"  ></a></td>
+                            <td><a ><img src="./Projects_files/setup.jpg" alt="" height="310" width="320"  ></a></td>
+                            <td><a> <img src="./Projects_files/DesignModelInVivado.png" alt="" height="310" width="350"  > </a></td>
+                        </tr>
+                    </table>
+                  </div>
+                  </div>
+              </section>
+
+
+              <section id="content" class="body">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    <h1 class="entry-title"><i class="fa fa-chevron-right"></i>Formal Modeling, Verification and Implementation of a Train Control System:</h1>
+                    <span class="badge">Winter 2015</span>
+                    <span class="badge">ARM-CortexM4</span>
+                    <span class="badge">Formal Verification</span>
+                    <span class="badge">Model checking</span>
+                    <span class="badge">AutoFOUS3 (AF3)</span>
+                    <span class="badge">Python</span>
+                    </a>
+                    <br>
+                    <br>
+                    <div id="collapse3" class="panel-collapse collapse">
+                    <div class="entry-content">
+                    <p id="first">
+                    In this project the BART train control system was formally modeled and after verifing the properties of the system, the train control algorithm was then implemented on an ARM Cortex-M4 processor. We first started by formally modelling the train operation and its control system. To verify the correct functionality of the algorithm, we expressed the model in AF3 block representation. Using NuSMV, we verified the essential properties of the system. Finally, the BART’s train control system was implemented on an ARM platform.
+                    </p>
+                    <div align="center">
+                        <table>
+                            <tr>
+                                <td><a ><img src="./Projects_files/BARTFRDM64F.png" alt="" height="210" width="800"  ></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <div align="center">
+                        <table>
+                            <tr>
+                                <a href="https://github.com/hossein1387/BART-System-Verification"> <img width="40px" src="./Projects_files/Github.png"></a>
+                                <a href="http://goo.gl/EV2K6L"> <img <img src="./Welcome!_files/pdf.png"width="40" height="40" alt="HTML Basic Tutor" /></a>
+                                <a href="https://www.youtube.com/watch?feature=player_embedded&v=wO1HBslPy88"> <img width="40px" src="./Projects_files/youtube.png"></a>
+                            </tr>
+                        </table>
+                    </div>
+                  </div>
+              </section>
+
+              <section id="content" class="body">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                    <h1 class="entry-title"><i class="fa fa-chevron-right"></i>Desiging PCB for nRF24L01+ working @ 2.4GHZ using Altium Designer:</h1>
+                    <span class="badge">Winter 2014</span>
+                    <span class="badge">Altium Designer</span>
+                    <span class="badge">PCB</span>
+                    <br>
+                    <br>
+                    </a>
+                    <div id="collapse4" class="panel-collapse collapse">
+                    <div class="entry-content">
+                    <p id="first">
+                    Board Features:
+                    <ul>
+                        <li> – Easy to use with FRDM based platform</a> 
+                        <li> – Arduino Compatible </li>
+                        <li> – 100m Range at 250kbps </li>
+                        <li> – 250kbps to 2Mbit Data Rate  </li>
+                        <li> – Multiceiver - 6 Data Pipes  </li>
+                        <li> – Software selectable channel from 2400MHz to 2525MHz (125 Selectable channels) </li>
+                        <li> – Onboard pin header available to add HC-05 Bluetooth module  </li>
+
+                    </ul>
+                      <div align="center">
+                        <table>
+                            <tr>
+                                <td><a> <img src="./Projects_files/Top.png" alt="" height="310" width="320"  > </a></td>
+                                <td><a ><img src="./Projects_files/Bottom.png" alt="" height="310" width="320"  ></a></td>
+                                <td><a ><img src="./Projects_files/Board.png" alt="" height="210" width="320"  ></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
+              </section>
+
+              <section>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                    <h1 class="entry-title"><i class="fa fa-chevron-right"></i>Android App for monitoring a WSN:</h1>
+                    <span class="badge">Winter 2014</span>
+                    <span class="badge">Android</span>
+                    <span class="badge">Java</span>
+                    <span class="badge">Dropbox API</span>
+                    </a>
+                    <br>
+                    <br>
+                    <div id="collapse5" class="panel-collapse collapse">
+      
+                    <div class="entry-content">
+                    <p id="first">
+                      <div align="center">
+                          <table>
+                              <tr>
+                                  <td><a ><img src="./Projects_files/WSN.png" alt="" height="310" width="500"  ><figcaption>WSN system architecture</figcaption></a></td>
+                                  <td><a ><img src="./Projects_files/topology.png" alt="" height="310" width="500"  ><figcaption>WSNs' Nodes and Basestation</figcaption></a></td>
+                              </tr>
+                          </table>
+                      </div>
+                      <div align="center">
+                          <table>
+                              <tr>
+                                  <td><a ><img src="./Projects_files/Authenticate.png" alt="" height="310" width="200"  ><figcaption>Request Authentication from DropBox</figcaption></a></td>
+                                  <td><a ><img src="./Projects_files/Main_page.png" alt="" height="310" width="200"  ><figcaption>App Main Window</figcaption></a></td>
+                                  <td><a ><img src="./Projects_files/ConnectDevice.png" alt="" height="310" width="200"  ><figcaption>Connecting to Basestation</figcaption></a></td>
+                                  <td><a ><img src="./Projects_files/HistoryView.png" alt="" height="310" width="200"  ><figcaption>Plotting incoming data from nodes in the Network</figcaption></a></td>
+                              </tr>
+                          </table>
+                      </div>
+                      Features:
+                      <ul>
+                          <li> – Support upto 120 nodes in the network </li>
+                          <li> – Automatic recognition of a new Node in the network  </li>
+                          <li> – Using DbxDatastore as the back-end data store </li>
+                          <li> – Live Network monitor  </li>
+                          <li> – Automatic Network history builder  </li>
+                      </ul>
+                    </div>
+              </section>
+
+              <section>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                <h1 class="entry-title"><i class="fa fa-chevron-right"></i>Modeling a JPEG Encoder using SystemC in C++:</h1>
+                <span class="badge">Winter 2013</span>
+                <span class="badge">SystemC</span>
+                <span class="badge">C++</span>
+                <span class="badge">Hardware Software Co-design</span>
+                </a>
+                <br>
+                <br>
+                <div id="collapse6" class="panel-collapse collapse">
+                <div class="entry-content">
+                <p id="first">
+                        <div align="center">
+                            <table>
+                                <tr>
+                                    <td><a ><img src="./Projects_files/JPEGSystemC.png" alt="" height="310" width="900"  ></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        Project Objectives:
+                        <ul>
+                            <li> – Customizing SystemC FIFO Channels  </li>
+                            <li> – Creating a customized OS built on top of SystemC schedular</li>
+                            <li> – Creating customized communication channel (A double-handshake bus protocol) </li>
+                            <li> – Encapsulating HW models from Software models </li>
+                        </ul>
+
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+              </section>
+
+              <section>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                  <h1 class="entry-title"><i class="fa fa-chevron-right"></i>Functional Verification of RTL design (implementation of a four-operation calculator) using SystemVerilog: </h1>
+                  <span class="badge">Winter 2013</span>
+                  <span class="badge">SystemVerilog</span>
+                  <span class="badge">Functional Verification</span>
+                </a>
+                <br>
+                <br>
+                <div id="collapse7" class="panel-collapse collapse">
+                <div align="center">
+                    <table>
+                        <tr>
+                            <td><img src="./Projects_files/FunctionalVerification.png" alt="" height="310" width="500"  ></td>
+                            <td><img src="./Projects_files/Covrage2.png" alt="" height="310" width="300"  ></td>
+                        </tr>
+                    </table>
+                    </div>
+                        Project Objectives:
+                        <ul>
+                            <li>– Creating a class based verfication environment </li>
+                            <li>– Reaching Overall 70% coverage on all input test cases </li>
+                            <li>– Creating an automatic randomized test generator  </li>
+                        </ul>
+                  </div>
+               </section>
+
+              <section>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                  <h1 class="entry-title"><i class="fa fa-chevron-right"></i>Data Logger based on SIM908: </h1>
+                  <span class="badge">Winter 2012</span>
+                  <span class="badge">Altium Designer</span>
+                  <span class="badge">PCB</span>
+                  </a>
+                  <br>
+                  <br>
+                   <div id="collapse8" class="panel-collapse collapse">
+     
+                  <div align="center">
+                    <table>
+                      <tr>
+                          <td><img src="./Projects_files/Sim9083D.png" alt="" height="210" width="400"  ></td>
+                          <td><img src="./Projects_files/SIM908Top.png" alt="" height="210" width="400"  ></td>
+                          <td><img src="./Projects_files/SIM908Bottom.png" alt="" height="210" width="400"  ></td>
+                      </tr>
+                    </table>
+                  </div>
+                  Features:
+                    <ul>
+                      <li>– Onboard switching power supply (input 9~40 V, Output 4.2v)  </li>
+                      <li>– Smart Battery charger</li>
+                      <li>– Connectivity: GSM/GPRS </li>
+                      <li>– Capable of Capturing GPS position  </li>
+                    </ul>
+                  </div>
+               </section>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<div id="nav-wrapper" align="center">                            
+     <p class="credits">© 2016 MohammadHossein AskariHemmat<br></p>
+</div>
+
+
+<footer>
+   <div class="container">
+      <hr>
+      <div id="nav-wrapper" align="center">                            
+          <a href="https://github.com/hossein1387"> <img width="70px" src="./Files/Github.png"></a>
+          <a href="http://ca.linkedin.com/in/askarihemmat"><img width="70px" src="./Files/linkedin.png"></a>
+      </div>
+   </div>
+</footer>
+
+
+</body>
