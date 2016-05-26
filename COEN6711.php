@@ -78,7 +78,7 @@ file_put_contents('coen6711_log.log', $line . PHP_EOL, FILE_APPEND);
         <ul>
             <li> <a href="Files/Keil.pdf"> User Guide document for FRDM-KL25Z Evaluation board</a> </li>
             <li> <a href="http://www.farnell.com/datasheets/1651277.pdf"> User Guide document for FRDM-KL25Z Evaluation board(From Freescale)</a>  </li>
-            <li> <a href="Files/CORTEXM0PlusRefManual.pdf"> CortexM0+ reference manual</a> </li>
+            <li> <a href="http://infocenter.arm.com/help/topic/com.arm.doc.ddi0484b/DDI0484B_cortex_m0p_r0p0_trm.pdf"> CortexM0+ reference manual</a> </li>
             <li> <a href="Files/Datasheet_KL25P80M48SF0RM.pdf"> KL25Z datasheet</a> </li>
             <li> <a href="Files/FRDM-KL25Z_SCH.pdf"> Board schematic</a> </li>
         </ul>
