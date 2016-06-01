@@ -44,8 +44,8 @@
         </ul>
         <font size="5">Use full links: </font>
         <ul>
-            <li> <a href="http://www.asic-world.com/systemverilog/tutorial.php"> Systemverilog tutorials (Asic-World)</a> </li>
-            <li> <a href="http://www.eda.org/sv/SystemVerilog_3.1a.pdf"> Systemverilog Language reference</a> </li>
+            <li> <a href="http://www.asic-world.com/systemverilog/tutorial.html"> Systemverilog tutorials (Asic-World)</a> </li>
+            <li> <a href="http://svref.renerta.com/"> Systemverilog Language reference</a> </li>
             
         </ul>
         <br>
