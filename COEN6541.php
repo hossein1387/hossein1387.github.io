@@ -42,7 +42,7 @@
         <ul>
             <li> Create project in Questasim <a href="https://www.youtube.com/watch?v=29WHfbREfks"> <img width="40px" src="./Projects_files/youtube.png"></a> </li>
         </ul>
-        <font size="5">Use full links: </font>
+        <font size="5">Usefull links: </font>
         <ul>
             <li> <a href="http://www.asic-world.com/systemverilog/tutorial.html"> Systemverilog tutorials (Asic-World)</a> </li>
             <li> <a href="http://svref.renerta.com/"> Systemverilog Language reference</a> </li>
