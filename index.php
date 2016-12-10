@@ -51,9 +51,10 @@
                         I recently graduated from Concordia University with a Master degree in Electrical and Computer Engineering. I worked under supervision of  <a href="http://users.encs.concordia.ca/~ait/"> Prof. Otmane Ait Mohamed </a>in <a href="http://hvg.ece.concordia.ca/"> Hardware Verification Group (HVG)</a>. For my Master Project, I worked on mapping of high level models to low level embedded codes for ARM Cortex-M MIcrocontrollers. I specifically worked on mapping UML/SysML activity diagrams to RTX real-time operating system. The framework of this project can be found in this webpage under My Projects page. As of July 2015, I am an <b>Electronics and Computer Engineer</b> at <a href="http://www.trusimulation.com/"> Tru Simulation + Training </a>.
                     </p>
                     My major areas of interest are:
-                    <ul>
-                        <li> High level design and verification</li>
-                        <li> Embedded system design</li>
+		    <ul>
+                        <li> Hardware acceleration for high performance computing </li>
+                        <li> Hardware design and verification </li>
+                        <li> Hardware software Co-Design </li>
                     </ul>
                     <p>
                         You can also check my <a href="./Files/MOHAMMADHOSSEIN_ASKARIHEMMAT.pdf"> C.V. </a> or <a href="http://ca.linkedin.com/in/askarihemmat">linkedin profile.</a>
