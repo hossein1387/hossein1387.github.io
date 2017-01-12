@@ -88,7 +88,7 @@ file_put_contents('coen6711_log.log', $line . PHP_EOL, FILE_APPEND);
         <br>
         
       <div id="nav-wrapper" align="center">                            
-          <p class="credits">© 2016 MohammadHossein AskariHemmat<br></p>
+          <p class="credits">© 2017 MohammadHossein AskariHemmat<br></p>
       </div>
     </div>
 </div>
