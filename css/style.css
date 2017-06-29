@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+/* === Typography === */
+@font-face{font-family:'Sahel';src:url("../fonts/sahel/Sahel.eot");
+src:url("../fonts/sahel/Sahel.eot") format("embedded-opentype"),
+	url("../fonts/sahel/Sahel.woff") format("woff"),
+	url("../fonts/sahel/Sahel.ttf") format("truetype")}
+
 body{
- font-family: 'Raleway', sans-serif;
+ font-family: 'Sahel', 'Raleway', sans-serif;
  font-size: 16px;
 }
 a{
@@ -93,3 +99,51 @@ a{
 #sidebar li {list-style:none; font-size:1.2em; margin:0 0 10px; padding:0 0 10px 0; color:#888; border-bottom:1px solid #eee;}
 #sidebar li a {font-size:1.2em;}
 #sidebar h2 {font-size: 1.4em;}
+
+
+.masthead__arrow {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: relative;
+  bottom: 2em;
+  left: 50%;
+  margin-top: 10em;
+  font-size: 1em;
+}
+
+.masthead__arrow h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.masthead__arrow a {
+  -webkit-transition: all 100ms cubic-bezier(0.71, 0.83, 0.79, 0.99);
+  -moz-transition: all 100ms cubic-bezier(0.71, 0.83, 0.79, 0.99);
+  transition: all 100ms cubic-bezier(0.71, 0.83, 0.79, 0.99);
+  opacity: 1;
+  color: #fff;
+  display: inline-block;
+}
+
+.masthead__arrow a:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media all and (max-width: 35em) {
+  .masthead__arrow {
+    font-size: 1em;
+  }
+}
+br50
+{
+    content: " " !important;
+    display: block !important;
+    margin:50px;
+}
