@@ -108,17 +108,10 @@ a{
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
   position: relative;
-  bottom: 2em;
   left: 50%;
-  margin-top: 10em;
+  margin-top: 5em;
   font-size: 1em;
 }
-
-.masthead__arrow h2 {
-  margin: 0;
-  color: #fff;
-}
-
 .masthead__arrow a {
   -webkit-transition: all 100ms cubic-bezier(0.71, 0.83, 0.79, 0.99);
   -moz-transition: all 100ms cubic-bezier(0.71, 0.83, 0.79, 0.99);
@@ -140,10 +133,4 @@ a{
   .masthead__arrow {
     font-size: 1em;
   }
-}
-br50
-{
-    content: " " !important;
-    display: block !important;
-    margin:50px;
 }
