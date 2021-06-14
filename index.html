@@ -24,7 +24,7 @@
     tr,
     p,
     a {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-family: Verdana;
       font-size: 14px
     }
     
@@ -116,27 +116,21 @@
     </div>
 </div>
 
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+  <table width="1000" border="0" align="center" cellspacing="0" cellpadding="0">
     <tr>
       <td>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
-            <td width="67%" valign="middle">
+            <td width="50%" valign="middle">
               <p align="center">
                 <name>Hossein Askari</name>
               </p>
-              <p>              </p>
               <p align="justify">
-                        I am a Phd student at <a href="http://www.polymtl.ca/en"> Ecole Polytechnique de Montreal </a>. I am working under <a href="https://www.grm.polymtl.ca/~david/web/index.php">Prof. Jean-Pierre David </a> supervision. Previously, I was an ASIC Verification engineer at <a href="http://www.microsemi.com/"> Microsemi (Now MicroChip)
-                        </a> where I worked on the next generation of OTN (Optical Transport Network) processors. 
-      And before that, I was a Software Engineer at <a href="http://www.trusimulation.com/"> Tru Simulation + Training</a>.
+                    I am a Phd student at <a href="http://www.polymtl.ca/en"> Ecole Polytechnique de Montreal </a>. I am working under supervision of <a href="https://www.polymtl.ca/expertises/david-jean-pierre"> Jean-Pierre David </a>  and  <a href="https://www.polymtl.ca/expertises/david-jean-pierre"> Yvon Savaria </a>. Prior to my PhD I worked as an ASIC Verification Engineer at Microsemi and as a Software Engineer at Tru Simulation + Training. 
+                    <br> <br>
+                    My main area of research is making Deep Neural Networks more computationally efficient. I approach this problem by proposing new algorithms and custom hardwares. My research has been generously funded by the <a href="https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher"> FRQNT's 'Bourse de doctorat en recherche'</a>.
                     </p>
-                    My major areas of interests are:
-                    <ul>
-                        <li> Making Deep Neural Networks more computationally efficient</li>
-                        <li> Deep Learning Acceleration</li>                        
-                    </ul>
-                    <br>
+                    
               </p>
               <p align=center>
                 <a href="mailto:m.h.askari.hemmat@gmail.com">Email</a> &nbsp/&nbsp
@@ -145,8 +139,9 @@
                 <a href="http://ca.linkedin.com/in/askarihemmat">Linkedin</a> 
               </p>
             </td>
+
             <td width="100%">
-              <img src="./Files/images/Hossein.jpg">
+              <img src="./Files/images/Hossein.jpg" style="vertical-align:middle;margin:0px 50px">
             </td>
           </tr>
         </table>
@@ -160,12 +155,57 @@
             </td>
           </tr>
         </table>
+
+        <br>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="./Files/images/pito_mvu.png" alt="prl" width="240" height="130"></td>
+            <td width="75%" valign="top">
+                <a href="https://github.com/hossein1387/pito_riscv">
+                  <papertitle> RISC-V Barrel Processor for Deep Neural Network Acceleration
+                </a>
+                <br>
+                ISCAS 2021
+                <br>
+                <a href="https://ieeexplore.ieee.org/document/9401617"><img width="20px" src="./Files/logos/IEEE.png"></a> 
+                  /
+                <a href="https://drive.google.com/file/d/1vXfMpaZd6JOaJ-p3J5MhZSftGAhVnmsF/view?usp=sharing"><img width="20px" src="./Files/logos/presentation_ico.png"></a>
+                <p align="justify" style="width:500px;" style="width:500px;">
+                    Based on the architecture proposed in our FCCM 2020 paper, we built a RISC-V core that is connected to a neural network accelerator capable of performing Matrix Vector product. We used this system to compute a GEMV operation with an input matrix size of 8 by 128 and a weight matrix size of 128 by 128 with two-bit precision in only 16 clock cycles.
+                </p>
+            </td>
+          </tr>
+        </table>
+
+        <br>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="./Files/images/neutrino.png" alt="prl" width="200" height="90"></td>
+            <td width="75%" valign="top">
+                <a href="https://docs.deeplite.ai/neutrino/index.html">
+                  <papertitle> Deeplite NeutrinoTM: A BlackBox Framework for Constrained Deep Learning Model Optimization
+                </a>
+                <br>
+                <a style="color:red"> Won IAAI Deployed Application Award!</a>
+                <br>
+                AAAI 2021 (IAAI Technical Track)
+                <br>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17780"><img width="20px" src="./Files/logos/report.jpg"></a> 
+                  /
+                <a href="https://github.com/Deeplite/neutrino"><img width="20px" src="./Files/logos/Github.png"></a>
+                <p align="justify" style="width:500px;" style="width:500px;">
+                    In this research, we introduce a black-box framework, Deeplite Neutrino^{TM} for production-ready optimization of deep learning models. The framework provides an easy mechanism for the end-users to provide constraints such as a tolerable drop in accuracy or target size of the optimized models, to guide the whole optimization process
+                </p>
+            </td>
+          </tr>
+        </table>
+
+
         <br>
         <table width="100%" align="center" border="0" cellpadding="20">
           <tr>
             <td width="25%"><img src="./Files/images/pito_pipeline.png" alt="prl" width="160" height="120"></td>
             <td width="75%" valign="top">
-              <p>
                 <a>
                   <papertitle> RISC-V Barrel Processor for Accelerator Control
                 </a>
@@ -175,14 +215,15 @@
                 <a href="./Files/docs/FCCM2020.pdf"><img width="20px" src="./Files/logos/report.jpg"></a> 
                   /
                 <a href="https://drive.google.com/open?id=11VnbQI0LvuQH-P55d60Md0v0fSg0HN1p"><img width="20px" src="./Files/logos/presentation_ico.png"></a>
-                <p align="justify">
+                <p align="justify" style="width:500px;" style="width:500px;">
                     In this paper we designed a Barrel RISC-V processor. We used 8 harts (hardware threads) to control 8 Matrix Vector Units for a Deep Neural Network application.  We have implemented our design on a Xilinx Ultrascale FPGA. Our 8-hart barrel processor runs at 350 MHz with CPI of 1 and consumes 0.287W.
                 </p>
-              </p>
             </td>
           </tr>
         </table>
+        
         <br>
+
         <table width="100%" align="center" border="0" cellpadding="20">
           <tr>
             <td width="25%"><img src="./Files/images/MIDL.png" alt="prl" width=160" height="160"></td>
@@ -199,7 +240,7 @@
                 <a href="./Files/docs/MICCAI2019_Presentation.pdf"><img width="20px" src="./Files/logos/presentation_ico.png"></a>
                   /
                 <a href="https://github.com/hossein1387/U-Net-Fixed-Point-Quantization-for-Medical-Image-Segmentation"><img width="20px" src="./Files/logos/Github.png"></a>
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     In this work, we present a fixed point quantization method for the U-Net architecture, a popular model in medical image segmentation. We then applied our quantization algorithm to three different datasets and comapred our results with the existing work. Our quantization method is more flexible (different quantization level is possible) compared to existing work. 
                 </p>
               </p>
@@ -222,7 +263,7 @@
                   /
                 <a href="https://github.com/hossein1387/BART-System-Verification"><img width="20px" src="./Files/logos/Github.png"></a>
 
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     In this work, we redefined New Activity Calculus (NuAC) terms to support code generation for ARM Cortex-M processors and we present an automated SysML
                     activity diagram to RTX (Keil Real-Time Operating System) code generator that uses mapping rules expressed in NuAC.
                 </p>
@@ -238,7 +279,7 @@
             <td width="25%"><img src="./Files/images/BART_used_Track.png" alt="prl" width=150" height="150"></td>
             <td width="75%" valign="top">
               <p>
-                <a href="https://github.com/hossein1387/BART-System-Verification">
+                <a href="https://ieeexplore.ieee.org/document/7438006">
                   <papertitle> Formal modeling, verification and implementation of a train control system
                 </a>
                 <br>
@@ -250,7 +291,7 @@
                   /
                 <a href="https://www.youtube.com/watch?v=wO1HBslPy88"><img width="20px" src="./Files/logos/youtube.png"></a>
 
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     In this paper, we verified a train control system for safe speed and acceleration limits. We verified different properties of the model. For this task, we verified model properties using the NuSMV model checker ( a symbolic model checker tool). We then implement the algorithm of the verified model on an ARM CortexM platform.
                 </p>
               </p>
@@ -264,11 +305,13 @@
             <td width="25%"><img src="./Files/images/ICM2014.png" alt="prl" width=150" height="150"></td>
             <td width="75%" valign="top">
               <p>
+                <a href="https://ieeexplore.ieee.org/document/7071849"> <papertitle> Automatic mapping of AF3 specifications to ARM cortex-M based FRDM platfrom
+                </a>
                 <br>
                  International Conference on Microelectronics (ICM) 2014
                 <br>
                 <a href="https://ieeexplore.ieee.org/document/7071849"><img width="20px" src="./Files/logos/IEEE.png"></a> 
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     In this paper we proposed a tool to map verified AutoFOCUS3(AF3) models to executable C code for ARM Cortex-M family processors. To execute a model on a target platform, the model needs to be accurately translated, and the translation must be based on the hardware resources. In this respect, this work aims to close the gap between high level description and the implementation. As a case study, using the proposed methodology, we implemented a self stabilizing distributed clock synchronization protocol on a FRDM platform.
                 </p>
               </p>
@@ -289,7 +332,7 @@
                 CSNDSP 2012
                 <br>
                 <a href="https://ieeexplore.ieee.org/document/6292771"><img width="20px" src="./Files/logos/IEEE.png"></a> 
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     Aduplication avoidance method is introduced for wireless sensor network that aims for high coverage area and low control overheads. To preventi energy holes creation the periodic selected transmitters are distributed uniformly. 
                 </p>
               </p>
@@ -307,6 +350,37 @@
             </td>
           </tr>
         </table>
+
+        <br>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="./Files/images/Logo_CMC_RGB_En.jpg" alt="prl" width=160" height="120"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="https://www.cmc.ca/workshop-accelerating-ai-montreal/">
+                  <papertitle> BARVINN: Barrel RISC-V Neural Network Accelerator
+                </a>
+                <br>
+                <p>
+                 Accelerating AI 2021 – Challenges and Opportunities in Cloud and Edge Computing
+                 <br>
+                 Polytechnique Montreal University, Montreal, Quebec
+                 <br>
+                 May 4, 2021
+                 <br>
+                 <a href="https://www.cmc.ca/workshop-accelerating-ai-2021/"><img width="20px" src="./Files/logos/globe.png"></a> 
+                 /
+                 <a href="https://www.youtube.com/watch?v=233MqCATM9k&ab_channel=CMCMicrosystems"><img width="20px" src="./Files/logos/youtube.png"></a>
+                 </p>
+                <p align="justify" style="width:500px;">
+                    In this presentation, I talked about BARVINN, a Barrel RISC-V Neural Network Accelerator. 
+                </p>
+              </p>
+            </td>
+          </tr>
+        </table>
+
+
         <br>
         <table width="100%" align="center" border="0" cellpadding="20">
           <tr>
@@ -328,13 +402,15 @@
                  /
                  <a href="./Files/docs/CMC_Presentaiton.pdf"><img width="20px" src="./Files/logos/presentation_ico.png"></a>
                  </p>
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     In this presentation, I talked about how to accelerate computation in Deep Neural Networks. Specifically, I talked about Quantization. Quantization in Deep Learning is a technique to reduce power, memory and computation time of deep neural networks. I talked about how one can improve the performance of a DNN using both software and hardware solutions.
                 </p>
               </p>
             </td>
           </tr>
         </table>
+
+
         <br>
         <table width="100%" align="center" border="0" cellpadding="20">
           <tr>
@@ -356,175 +432,13 @@
                    /
                    <a href="riscv_workshop/files/riscv-presentation.pdf"><img width="20px" src="./Files/logos/presentation_ico.png"></a>
                  </p>
-                <p align="justify">
+                <p align="justify" style="width:500px;">
                     In this workshop, I reviewed the most popular open source tools for design and simulation of digital systems. The attendants got a chance to use these tools and developed a simple circuit to calculate GCD. In the second part of the workshop, I talked about RISC-V and Chisel. At the end of the workshop, the attendants got a chance to use chisel to designa and simulate a 3-stage pipelined RISC-V core.
                 </p>
               </p>
             </td>
           </tr>
         </table>
-
-
-        <br>
-        <br>
-        <br>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td>
-              <heading>Projects</heading>
-            </td>
-          </tr>
-        </table>
-
-        <br>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="./Files/images/neuron.png" alt="prl" width="200" height="100"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/isaacsultan/lsgan-pytorch">
-                  <papertitle>Project Logic Brain : A Binary Neural Networks Accelerator on FPGA
-                </a>
-                <br>
-                Rapid Prototyping Course Project
-                <br>
-                  <a href="./Files/docs/ELE8307_Final_Report.pdf"><img width="20px" src="./Files/logos/report.jpg"></a> 
-                  <a href="./Files/docs/ELE8307_Mid_Report.pdf"><img width="20px" src="./Files/logos/report.jpg"></a> 
-                  /
-                  <a href="https://github.com/hossein1387/LogicBrain"><img width="20px" src="./Files/logos/Github.png"></a>
-                <p align="justify">
-                  In this project, we designed a Binary Neural Network Accelerator. We used Intel Cyclone V FPGA as the target platform. With no modifications, the accelerator is capable of accelerating MLP Networks and with some modifications, it is capable of accelerating CNNs. We have shown that compared to a software model (that runs on a NIOS II processor @100Mhz), our implementation can run upto 14K times faster (@100Mhz).
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <br>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="./Files/images/wage.png" alt="prl" width="160" height="130"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/hossein1387/IFT6135/tree/master/Project">
-                  <papertitle>ICLR 2018 Reproducibility Challenge
-                </a>
-                <br>
-                Training and Inference with Integers in Deep Neural Networks
-                <br>
-                  <a href="./Files/docs/IFT6135-reproducibility.pdf"><img width="20px" src="./Files/logos/report.jpg"></a> 
-                  /
-                  <a href="https://arxiv.org/abs/1802.04680"><img width="20px" src="./Files/logos/arxiv.jpg"> (original paper)</a>
-                  /
-                  <a href="https://github.com/hossein1387/LogicBrain"><img width="20px" src="./Files/logos/Github.png"></a>
-                <p align="justify">
-                  We reproduce Wu et al.'s ICLR 2018 submission Training And Inference With Integers In Deep Neural Networks. The proposed `WAGE' model reduces floating-point precision with only a slight reduction in accuracy. The paper introduces two novel approaches which allow for the use of integer values by quantizing weights, activation, gradients and errors in both training and inference. We reproduce the WAGE model, trained on the CIFAR10 dataset. The methodology demonstrated in this paper has applications for use with Application Specific Integrated Circuit (ASICs).
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <br>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="./Files/images/gan_proj.png" alt="prl" width="160" height="140"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/isaacsultan/lsgan-pytorch">
-                  <papertitle>Celebrity Face Generation using GAN
-                </a>
-                <br>
-                Deep Learning Course Assignment
-                <br>
-                  <a href="./Files/docs/ift6135-assignment-4.pdf"><img width="20px" src="./Files/logos/report.jpg"></a>
-                  /
-                  <a href="https://github.com/isaacsultan/lsgan-pytorch"><img width="20px" src="./Files/logos/Github.png"></a>
-                <p align="justify">
-                  We implemented a GAN with latent dimension 100, in order to generate novel faces from
-                  the CelebFaces Attributes Dataset. The dataset downloaded contains nearly 10000 images.
-                  A DCGAN architecture was used.
-
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <br>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="./Files/images/copy_task.png" alt="prl" width="160" height="140"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/hossein1387/IFT6135/tree/master/Assignments/Assignment3">
-                  <papertitle>Neural Turing Machine implementation
-                </a>
-                <br>
-                Deep Learning Course Assignment
-                <br>
-                  <a href="./Files/docs/IFT6135_Assignment_3_Programming_Part.pdf"><img width="20px" src="./Files/logos/report.jpg"></a>
-                  /
-                  <a href="https://github.com/hossein1387/IFT6135/tree/master/Assignments/Assignment3"><img width="20px" src="./Files/logos/Github.png"></a>
-                <p align="justify">
-                      We implemented the copy task of a Neural Turing Machine that was proposed by 
-                      Deep Mind. The original paper can be found <a href="https://arxiv.org/abs/1410.5401">here</a>.
-                      We implemented the MLP_NTM and LSTM_NTM and we compared the results with a LSTM model.
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <br>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="./Files/images/cat_vs_dog.png" alt="prl" width="160" height="140"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/hossein1387/IFT6135/tree/master/Assignments/Assignment2/src/CNN">
-                  <papertitle>Cats VS. Dogs (Kaggle challenge)
-                </a>
-                <br>
-                Deep Learning Course Assignment
-                <br>
-                  <a href="./Files/docs/IFT6135_Assignment_2_Programming_Part.pdf"><img width="20px" src="./Files/logos/report.jpg"></a>
-                  /
-                  <a href="https://github.com/hossein1387/IFT6135/tree/master/Assignments/Assignment2/src/CNN"><img width="20px" src="./Files/logos/Github.png"></a>
-                <p align="justify">
-                  In this assignment, we implemented a CNN model to detect if the image contains a dog or a 
-                  cat. We also had to provide some missclassified images and propose methods to prevent such scenraios.
-                  Finally, we implementd a focus detection algorithm to show what features in the original image are really 
-                  important for the network to correctly classify the image.
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-
-        <br>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="./Files/images/binary_net.png" alt="prl" width="160" height="140"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://arxiv.org/abs/1511.00363">
-                  <papertitle> Implementation of BinaryConnect
-                </a>
-                <br>
-                  <a href="https://github.com/hossein1387/MLExperiments/tree/master/BinNet"><img width="20px" src="./Files/logos/Github.png"> (theano)</a>
-                  /
-                  <a href="https://github.com/hossein1387/MLExperiments/tree/master/BinaryNetPytorch"><img width="20px" src="./Files/logos/Github.png"> (pytorch)</a>
-                <p align="justify">
-                  BinaryConnect introduced a quantization method to use -1 and +1 as the only values for parameters in a Neural Network. This dramatically reduces the footprint needed to store the parameters for a Neural Net. For most models, this can be achieved with negligible drop in accuracy.
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-        </td>
-    </tr>
   </table>
 
 <footer>
